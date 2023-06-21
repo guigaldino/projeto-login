@@ -97,7 +97,6 @@ div.campo > input {
     border-radius: 8px;
     padding: 4px;
     transform: translateY(-12px);
-    
 }
 
 div.campo > input:focus-within {
@@ -119,7 +118,7 @@ form > input[type = submit]{
 }
 
 form > input[type = submit]:hover{
-    background-color: #397673;   
+    background-color: #397673;
 }
 
 form > a.botao{
