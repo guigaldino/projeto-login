@@ -13,6 +13,7 @@
 
     section#login{
         width: 88vw;
+        height: 350px;
     }
 
     section#login > div#imagem{
@@ -26,8 +27,14 @@
     section#login > div#formulario{
         float: right;
         width: 65%;
+    }
 
-        
+    form > div.campo{
+        margin: 15px 0px;
+    }
+
+    form > a.botao{
+        margin-top: 16px;
     }
 
     div#formulario h1{
@@ -42,7 +49,7 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {    /*GRANDES TELAS*/
     
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
@@ -50,6 +57,7 @@
 
     section#login{
         width: 80vw;
+        height: 395px;
     }
     
     section#login > div#imagem{
@@ -72,6 +80,14 @@
     div#formulario p{
         font-size: 1em;
         text-align: justify;
+    }
+
+    form > div.campo{
+        margin: 20px 0px;
+    }
+
+    form > a.botao{
+        margin-top: 18px;
     }
 
 
